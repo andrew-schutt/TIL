@@ -20,3 +20,14 @@
 #### other branch:
 
 ```|> git rebase upstream/master```
+
+ ## __*PostgreSQL*__
+
+#### Display all available roles
+
+```|> psql postgres```
+```|> postgres=# \du```
+
+#### Grant a role attributes
+
+```|> ALTER ROLE <role name> <attribute name>;``` 
