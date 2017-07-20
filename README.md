@@ -42,7 +42,8 @@
 ```
 #irb |> string = 'ABCD'
 #irb |> string.tr!('ABC', '123')
-#irb => "123"```
+#irb => "123"
+```
 
 ## Iterators
 
