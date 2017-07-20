@@ -43,3 +43,13 @@
 #irb |> string = 'ABCD'
 #irb |> string.tr!('ABC', '123')
 #irb => "123"```
+
+## Iterators
+
+> Inject method shorthand
+
+```
+#irb |> [1,2,3,4,5,6,7].inject(0) { |sum, elem| sum + elem }
+#irb => 28
+#irb |> [1,2,3,4,5,6,7].inject(:+)
+#irb => 28
