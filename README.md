@@ -1,6 +1,10 @@
 # TIL (aka Today I Learned):
-> A collection of random little tips that documented elsewhere, but TIL it
-
+> A collection of random little tips/thoughts/ideas that I stumble across
+ 
+ # __*Random*__
+ 
+ > Pick a style that suits you, then use it consistently. - The C Programming Language
+ 
  # __*Git*__
 
 > Add the remote, call it "upstream":
