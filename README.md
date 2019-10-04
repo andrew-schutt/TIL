@@ -59,3 +59,13 @@
 #irb |> [1,2,3,4,5,6,7].inject(:+)
 #irb => 28
 ```
+
+# __*Unix*__
+
+> tar
+
+To compress: 
+`tar -zcvf archive_name.tar.gz folder_to_compress`
+
+To extract:
+`tar -zxvf archive_name.tar.gz`
